@@ -11,3 +11,12 @@ window.onscroll = function(){
     }
     prevScrollpos = currentScrollPos;
 }
+
+// Updates the description of the certificate section
+const myCarousel = document.getElementById('carousel');
+const myCertDescription = document.getElementById('cert-description');
+
+myCarousel.addEventListener('slide.bs.carousel', Event =>{
+    
+    myCertDescription.textContent = ""
+});
