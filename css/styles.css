@@ -27,3 +27,24 @@
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
+.uprm-web-logo{
+    height: 59px;
+    width: 193px;
+}
+
+.youth-committe-logo{
+    height: 100px;
+}
+
+.rumblebots-logo{
+    height: 100px;
+}
+
+.logo-card-header{
+    background-color: white; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
