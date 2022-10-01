@@ -19,6 +19,10 @@
     color:#217600;
 }
 
+.green-android{
+    color: #32DE84;
+}
+
 .divider{
     height: 0.5rem;
     background-color: rgba(0, 0, 0, .1);
