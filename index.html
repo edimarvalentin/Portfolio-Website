@@ -9,7 +9,6 @@
         <!--Cascading Styles Sheets-->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="node_modules/flag-icons/css/flag-icons.min.css">
         <link rel ="stylesheet" href="/css/styles.css">
         
@@ -29,18 +28,6 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link-1</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Link-2</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Link-3</a>
-                      </li>
                     </ul>
                   </div>
             </div>
@@ -48,24 +35,24 @@
 
         <!--Hero, Introduction Section-->
         <div class="container col-xxl-8 px-4 py-5">
-          <div class="row flex-lg-row-reverse">
-            <div class="col-lg-6 col-sm-12">
+          <div class="row flex-md-row-reverse">
+            <div class="col-md-6 col-sm-12">
               <div class="d-flex justify-content-center mb-3">
                 <div class="card" style="width: 20rem;">
                   <img src="/img/profile.jpg" class="card-img-top" loading="lazy">     
                   <ul class="list-group list-group-flush">      
                     <li class="list-group-item card-body">
-                      <div class="logo-card-header"><img class="uprm-web-logo align-items-center" src="/img/rum_upr_web.jpg" alt="uprm-web-logo"></div>
+                      <div class="logo-card-header"><a href="https://www.uprm.edu/portada/"><img class="uprm-web-logo align-items-center" src="/img/rum_upr_web.jpg" alt="uprm-web-logo"></a></div>
                       <h5 class="card-title text-center">BS in Computer Science & Engineering</h5>
                       <h6 class="text-center card-text">August 2018 - May 2024</h6>
                     </li>
                     <li class="list-group-item card-body">
-                      <div class="logo-card-header"><img class="rumblebots-logo align-items-center" src="/img/rumblebots.png" alt="rumblebots-logo"></div>
+                      <div class="logo-card-header"><a href="https://rumblebots.org/"><img class="rumblebots-logo align-items-center" src="/img/rumblebots.png" alt="rumblebots-logo"></a></div>
                       <h5 class="card-title text-center">Software Department Team Leader</h5>
                       <h6 class="text-center card-text">August 2019- Present</h6>
                     </li>
                     <li class="list-group-item card-body">
-                      <div class="logo-card-header"><img class="youth-committe-logo align-items-center" src="/img/Logo_CJ_transparente_VER_Color.png" alt="youth-committe-logo"></div>
+                      <div class="logo-card-header"><a href="https://www.coopmanati.com/"><img class="youth-committe-logo align-items-center" src="/img/Logo_CJ_transparente_VER_Color.png" alt="youth-committe-logo"></a></div>
                       <h5 class="card-title text-center">President</h5>
                       <h6 class="text-center card-text">August 2021 - Present</h6>
                       <h5 class="card-title text-center">Secretary</h5>
@@ -75,7 +62,7 @@
               </div>
             </div>
           </div>
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 d-none d-md-block">
               <h1 class="display-5 fw-bold lh-1 mb-3 verde-colegial">¡Hola! <span class="fi fi-pr"></span></h1>
               <p class="lead">I’m Edimar Valentín Kery, an undergraduate student of The Computer Science and Engineering Department at the University of Puerto Rico, 
                 Mayagüez Campus. I’m a hands-on developer with experience in many areas where coding is required. I have worked with robotics, video-game development, 
@@ -103,7 +90,7 @@
           </div>
           <div class="row">
             <div class="col-12 mb-5">
-              <div id="projects-carousel" class="carousel slide" data-bs-ride="true">
+              <div id="projects-carousel" class="carousel slide carousel-dark" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -111,28 +98,28 @@
                   <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active carousel-project">
                     <!--Hippo Android App-->
                     <div class="container">
                       <div class="row align-content-center flex-row-reverse">
-                        <div class="col-lg-3 justify-content-center d-flex">
-                          <div class="card bg-dark" style="height: 706px;">
-                            <img src="/img/project-hippo-1.jpg" class="card-img">
+                        <div class="col-lg-3 col-sm-12">
+                          <div>
+                            <img src="/img/project-hippo-1.jpg" height="500" class="center-image">
                           </div>
                         </div>
                         <div class="col-lg-3 d-none d-lg-block">
-                          <div class="card bg-dark" style="height: 706px;">
-                            <img src="/img/project-hippo-2.jpg" class="card-img">
+                          <div>
+                            <img src="/img/project-hippo-2.jpg" height="500" class="center-image">
                           </div>
                         </div>
                         <div class="col-lg-3 d-none d-lg-block">
-                          <div class="card bg-dark" style="height: 706px;">
-                            <img src="/img/project-hippo-3.jpg" class="card-img">
+                          <div>
+                            <img src="/img/project-hippo-3.jpg" height="500" class="center-image">
                           </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-sm-12">
                           <h1 class="text-center fw-bold">Hippo</h1>
-                          <p class="lead text-center">A task management Android app that helps the user to organize what they need to do, while giving the user the ability to make timed to 
+                          <p class="lead text-center d-none d-lg-block">A task management Android app that helps the user to organize what they need to do, while giving the user the ability to make timed to 
                             do lists and set reminders. It was developed in Android Studio in a team of 3 alumni of the University of Puerto Rico. Git had to be used to implement the tasks 
                             of each developer and maintain version control. A backend and parse service were setup to save and retrieve user data.
                             </p>
@@ -141,18 +128,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-project">
                     <!--Mini Sumo-->
                     <div class="container">
                       <div class="row align-content-center">
-                        <div class="col-lg-9">
-                          <div class="card" style="height: 706px;">
+                        <div class="col-lg-6 col-sm-12">
+                          <div class="card">
                             <img src="/img/project-minisumo.jpg" class="card-img">
                           </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-6">
                           <h1 class="text-center fw-bold">Mini Sumo Combat Robot</h1>
-                          <p class="lead text-center">
+                          <p class="lead text-center d-none d-lg-block">
                             Assembled and programmed the team’s first ever mini sumo robot which is controlled by an Arduino Leonardo microcontroller. The sumo has infrared sensors 
                             all around it and 2 motors that give it linear and rotational movement. The mini sumo is controlled by an Arduino Leonardo Microcontroller. 
                             The programs are developed in the Arduino IDE and the programming language is practically C++. With a series of sensors embedded in the robot, 
@@ -163,18 +150,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-project">
                     <!--Cooperativism-->
                     <div class="container">
                       <div class="row align-content-center flex-row-reverse">
-                        <div class="col-lg-9">
-                          <div class="card" style="height: 706px;">
+                        <div class="col-lg-6 col-sm-12">
+                          <div class="card">
                             <img src="/img/project-social-cooperativism.png" class="card-img">
                           </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-6 col-sm-12">
                           <h1 class="text-center fw-bold">Youth Development in Cooperativism</h1>
-                          <p class="lead text-center">
+                          <p class="lead text-center d-none d-lg-block">
                             As president of the Youth Committee of COOP Manatí, it is my duty and responsibility to promote the participation of the youth in the cooperative 
                             experience to reach an integrated development in the educational, social and economic areas. I direct activities that aid in the formation of cooperative 
                             businesses and provide financial education like budgeting and responsible use of credit to the youth of Puerto Rico. 
@@ -184,23 +171,23 @@
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-project">
                     <!--Mini Sumo Board-->
                     <div class="container">
                       <div class="row align-content-center">
-                        <div class="col-lg-9">
-                          <div class="card" style="height: 706px;">
-                            <img src="/img/project-minisumo-board.jpg " class="card-img">
+                        <div class="col-lg-6 col-sm-12">
+                          <div class="card">
+                            <img src="/img/project-minisumo-board.jpg " class="card-img-top mb-1">
+                            <img src="/img/project-minisumo-design.jpg" width="300">
                           </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-6 col-sm-12">
                           <h1 class="text-center fw-bold">RUMblebots Control PCB V1</h1>
-                          <p class="lead text-center">
+                          <p class="lead text-center d-none d-lg-block">
                             After finishing the first mini sumo, a major update had to be made. The Arduino Leonardo used had a limiting number of I/O terminals, meaning that not 
                             many sensors could be installed on the robot. With my experience in electronics, I came up with a shield that allows us to use a Teensy microcontroller instead, 
                             increasing the number of I/0 terminals from 5 to 12. 
                           </p>
-                          <div class="d-flex justify-content-center"><img src="/img/project-minisumo-design.jpg" width="200"></div>
                           <div class="logo-card-header"><img class="rumblebots-logo align-items-center" src="/img/rumblebots.png" alt="rumblebots-logo"></div>
                         </div>
                       </div>
@@ -217,12 +204,13 @@
         <!--Certificates-->
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-6 align-self-center">
-              <h1 class="display-5 fw-bold text-center px-4 py-5 my-5 verde-colegial">Certifications</h1>
-              <p class="lead text-center" id="cert-description">Anroid Development Course</p>
+            <div class="col-12 col-lg-6">
+              <h1 class="display-5 fw-bold text-center py-5 verde-colegial">Certifications</h1>
+              <p class="lead text-center d-none d-lg-block" id="cert-description">Awarded after completing the CodePath Android Development Course in which different Android apps were built 
+                in Android Studio using Java.</p>
             </div>
             <div class="col-12 col-lg-6 py-5">
-              <div id="carousel" class="carousel slide" data-bs-ride="true">
+              <div id="carousel" class="carousel slide carousel-dark" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -230,27 +218,19 @@
                   <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item carousel-certificate active">
                     <img src="/img/certificate-codepath-android.jpg" class="d-block w-100 img-thumbnail">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-certificate">
                     <img src="/img/certificate-bootstrap-coursera.png" class="d-block w-100 img-thumbnail">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-certificate">
                     <img src="/img/certificate-vocation-eletronics.jpg" class="d-block w-100 img-thumbnail">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item carousel-certificate">
                     <img src="/img/certificate-robotics-vex1024.jpg" class="d-block w-100 img-thumbnail">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
             </div>
           </div>
@@ -262,4 +242,24 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="/js/home.js"></script>
     </body>
+    <!--Footer-->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav justify-content-center border-bottom">
+              <li class="nav-item ms-3"><a class="text-muted" href="https://github.com/edimarvalentin"><h1 class="bi bi-github color-raisin-black"></h1></a></li>
+              <li class="nav-item ms-3"><a class="text-muted" href="https://www.linkedin.com/in/edimar-valent%C3%ADn-kery-26992299/"><h1 class="bi bi-linkedin color-linkedin-blue"></h1></a></li>
+              <li class="nav-item ms-3"><a class="text-muted" href="mailto:edimar.valentin@upr.edu"><h1 class="bi bi-envelope bs-black"></h1></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="text-center text-muted">&copy; 2022 Edimar Valentín Kery</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
 </html>

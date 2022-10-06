@@ -51,4 +51,25 @@
     display: flex;
 }
 
+.center-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
+.carousel-project {
+   height: 650px;
+  }
+
+
+.carousel-certificate{
+    height: 495px;
+}
+
+.color-linkedin-blue{
+    color: #0077B5;
+}
+
+.color-raisin-black{
+    color: #211F1F;
+}
