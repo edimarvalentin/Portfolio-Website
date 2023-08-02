@@ -1,32 +1,50 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.2.1",
-    "bootstrap-icons": "^1.9.1",
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "flag-icons": "^6.6.6",
-    "font-awesome": "^4.7.0",
-    "lite-server": "^2.6.1"
-  },
-  "scripts": {
-    "dev": "lite-server",
-    "start": "node server.js"
-  },
   "name": "portfolio-website",
-  "version": "1.0.0",
-  "description": "Edimar's Personal Website",
-  "main": "server.js",
+  "version": "1.1.0",
+  "description": "Portfolio website made by and for Edimar",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "grunt webpack:dev",
+    "build": "SET NODE_ENV='production' && grunt webpack:prod",
+    "start": "grunt webpack-dev-server:dev",
+    "server": "node server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/edimarvalentin/Portfolio-Website.git"
   },
-  "author": "Edimar Valentín Kery",
+  "keywords": [],
+  "author": "Edimar Valentin Kery",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edimarvalentin/Portfolio-Website/issues"
   },
   "homepage": "https://github.com/edimarvalentin/Portfolio-Website#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.1",
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "autoprefixer": "^10.4.14",
+    "css-loader": "^6.8.1",
+    "csv-loader": "^3.0.5",
+    "express": "^4.18.2",
+    "grunt": "^1.6.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-webpack": "^6.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.64.2",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0",
+    "xml-loader": "^1.2.1"
   }
 }
